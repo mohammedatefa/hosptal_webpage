@@ -1,0 +1,710 @@
+/*start framework*/
+body{
+    text-transform: capitalize;
+}
+.container{
+    width: 1300px;
+    margin: auto;    
+}
+.textcenter{
+    text-align: center;
+}
+.main-color{
+    color: #199BD9
+}
+#active{
+     background-color: #22a6e5;
+}
+button:hover{
+    transition: all 0.5s ease-in-out;
+}
+/*end framework*/
+/*start header*/
+.header{
+    overflow: hidden;
+}
+.header .logo{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Tahoma, Geneva, sans-serif;
+    float: left;
+    font-size: 15px
+}
+.header .logo h3{
+    margin-top: 13px;
+    margin-bottom: 1px
+}
+.header .logo h5{
+    margin-top: 0px
+}
+.header .about{
+    float: right;
+}
+.header .info{
+   overflow: hidden;
+    float: left;
+    padding-left: 15px;
+    width: 215px;   
+}
+.header .info .icon{
+    float: left;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color:  #199BD9
+}
+.header .info .icon i{
+    padding: 8px;
+    color: #fff
+}
+.header .info .para{
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left: 25px    
+}
+.header .info .para h4{
+    margin-top: 17px;
+    margin-bottom: 0px
+}
+.header .info .para p{
+    margin-top: 1px
+}
+/* end header*/
+/* start navbar*/
+.navbar{
+    overflow: hidden;
+}
+.navbar hr{
+    margin-top: 0px;
+    background-color: #eee;
+    height: 2px;
+    border: 0;
+    margin-bottom: 0;
+}
+.navbar .nav{
+    float:left;
+    width: 60%;
+}
+.navbar .nav ul{
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    font-weight: 700;
+    margin-left: 0px;
+    color:#919191
+}
+.navbar .nav ul li{
+    float: left;
+    padding-right: 22px
+}
+.navbar .nav ul li a{
+    text-decoration: none;
+     color:#919191
+}
+.navbar .nav ul li a:hover{
+    color:#222;
+    transition: all 0.5s ease-in-out;
+}
+.navbar .social{
+   float: right;
+    width: 30%;
+    margin-top: 6px;
+    padding-left: 10%
+}
+.navbar .social ul{
+    list-style: none;
+    padding-left: 0px
+}
+.navbar .social ul li{
+    float: left;
+    padding-right:25px
+}
+.navbar .social ul li i:hover{
+    cursor: pointer;
+    color: #199BD9;
+    transition: all 0.5s ease-in-out;
+}
+/* end navbar*/
+/*start fixed menue*/
+.fixed-menue{
+    background-color: #c6dfe6;
+    padding: 10px;
+    border: 1px solid #c6dfe6;
+    position: fixed;
+    top: 0;
+    left: -262;
+    z-index: 9999;
+    height: 100%;
+    width: 240px;
+}
+.fixed-menue h4{
+    font-size: 22px;
+    margin-bottom: 0;
+    color: rgba(25, 155, 217,0.6);
+}
+.fixed-menue p{
+    font-weight: bold;
+    color: #333;
+}
+.fixed-menue .fixed-menue-icon{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 250px;
+    right: -29px;
+    padding: 1px;
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid #c6dfe6;
+    cursor: pointer;
+    background-color: #c6dfe6;
+    border-radius: 0 5px 5px 0;
+    color: #333
+}
+/*end fixed menue*/
+/*start slider*/
+.slider{
+    height: 520px;
+    background-image: url(../images/slider.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.slider .title{
+    width: 40%;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.slider .title h1{
+    margin-top: 0;
+    font-size: 40px;
+    
+}
+.slider .title p{
+    color: #777;
+    font-weight: 700;
+    line-height: 1.5
+}
+.slider .title button{
+    color: #fff;
+    padding: 8px 25px;
+    border: 1px solid ;
+    border-radius: 50px;
+    background-color: #199BD9;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.slider .title button:hover{
+    cursor: pointer;
+    box-shadow: 8px 8px 8px #999;
+}
+/* end slider*/
+/*start about-us*/
+.about-us{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.about-us .about-1{
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+    
+}
+.about-us .about-1 h2{
+    color: #efefef;
+}
+.about-us .about-1 p{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ccc;
+    font-weight: 900;
+    line-height: 1.6;
+    margin-bottom: 30px    
+}
+.about-us .about-1 .icon{
+    margin-top: 50px
+}
+.about-us .about-1 .icon i{
+    color: #fff;
+}
+.about-us .one{
+    background-color: #43B0D1
+}
+.about-us .tow{
+     background-color: #34B8B8
+}
+.about-us .three{
+     background-color: #28BCA2
+}
+.about-us .four{
+     background-color:#37C3A8
+}
+/*end about-us*/
+/*start services*/
+.services{
+    overflow: hidden;
+    background-color: #fff;
+}
+.services .info h1{
+    font-weight: 900;
+    color:#333;
+    font-size: 45px
+}
+.services .info p{
+     padding: 5px 300px;
+    color: #777;
+    font-weight: 700;
+}
+
+.services .service{
+    float: left;
+    width: 33.3335%;
+    margin-top: 20px;
+}
+.services .service img{
+    padding-left: 80px;
+    width: 300px;
+    margin-top: 0px
+
+}
+.services .service h3{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    background-color:rgba(25, 155, 217, 0.6);
+    color: #fff;
+}
+.services .service h3:hover{
+    cursor: pointer;
+    background-color:rgba(25, 155, 217, 0.9);
+    transition: all 0.9s ease-in-out;
+}
+.services .service p{
+    text-align: center;
+    color: #777;
+    font-weight: 700;
+    line-height: 1.6;    
+}
+/* end services*/
+/*start more info*/
+
+.more-info{
+    background-image: url(../images/surgeon.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 350px;
+    background-attachment: fixed;
+}
+.more-info .info{
+    float: left;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    width: 25%;
+    text-align: center;
+    color: #fff
+}
+.more-info .background{
+    background:rgba(25, 155, 217,0.6);
+    width: 100%;
+    height: 350px; 
+}
+.more-info .info hr{
+    margin-top: 10px;
+    width: 50px;
+    border: 0;
+    height: 2px;
+    background-color:#fff;
+}
+.more-info .info p{
+    font-weight: 700;
+    font-size: 25px
+}
+.more-info .info h4{
+     font-family:"Arial Black", Gadget, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 35px
+}
+/** end the more info/
+/* start information*/
+.information{
+    height: 500px;
+    overflow: hidden
+}
+.information .our-works{
+    width: 57%;
+    float: left;
+    padding-left: 8%;
+    padding-right: 10%;
+        
+}
+.information .our-works h2{
+    font-weight: bolder;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+.information .our-works h5{
+    margin-top: 0
+}
+.information .our-works h4{
+    margin-bottom: 0;
+    color: #555
+}
+.information .our-works .example{
+    float: left;
+    width: 40%;
+    padding-right: 10%
+}
+.information .our-works .example img{
+    width: 300px;
+    height: 200px;
+}
+
+.information .our-works p{
+    line-height: 1.6;
+    font-weight: bold;
+    color: #777
+}
+.information .our-creative{
+    width: 25%;
+    float: right
+}
+.information .our-creative h2{
+     font-weight: bolder;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+.information .our-creative p{
+    line-height: 1.6;
+    font-weight: bold;
+    color: #777
+}
+.information .our-creative .but{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #999;
+    color: #fff;
+    padding: 10px 8px;
+}
+.information .our-creative .but span{
+     border: 1px solid #fff;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #fff;
+    color: #22a6e5;
+}
+.information .our-creative .but strong{
+    padding-left: 10px;
+    font-weight: bold;
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+.information .our-creative .but i{
+    padding-left: 8px;
+    padding-right: 5px
+}
+#margine{
+    margin-bottom: 5px;
+}
+#margine:hover{
+    background-color: #22a6e5;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+/* end information*/
+/*start gallary*/
+.main-gallary{
+    background-image: url(../images/canva-office-building-business-lobby-blur-background-with-blurry-glass-window-transparent-wall-interior-view-inside-empty-entrance-hall-MADesT3uVSA.jpg);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+   -moz- background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    height: 680px; 
+    background-attachment: fixed;
+}
+.overlay{
+    background-color:rgba(44, 178, 153, 0.7);
+    height: 680px;
+    width: 100%;
+}
+.main-gallary .title{
+}
+.main-gallary .title h1{
+     font-weight: bold;
+    font-family:"Arial Black", Gadget, sans-serif;
+    margin-top: 0;
+    font-size: 45px;
+    padding-top: 60px;
+    color: #fff;
+}
+.main-gallary .title p{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    color: #e6e1e1;
+    line-height: 1.6;
+}
+.main-gallary .images{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+   
+}
+.main-gallary .images img{
+    height: 185px;
+    width: 280px;
+    padding-left: 20px;
+    padding-bottom: 20px; 
+    padding: 3px;
+    border: 2px solid #ccc;
+    box-shadow: 3px 3px 3px #ddd
+}
+.main-gallary .images img:hover{
+    cursor: pointer;
+    
+}
+
+/*end gallary*/
+/*start our-team*/
+.our-team .title h1{
+     font-weight: bold;
+    font-family:"Arial Black", Gadget, sans-serif;
+    margin-top: 0;
+    font-size: 45px;
+    padding-top: 60px;
+    color: #555;
+}
+.our-team .title p{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: bold;
+    color: #777;
+    line-height: 1.6;
+}
+.our-team .team{
+    padding-left: 80px;
+    padding-right: 80px;
+    overflow: hidden;
+}
+.our-team .team .doctor{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px
+}
+.our-team .team .doctor h4{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #333;
+}
+.our-team .team .doctor span{
+     font-weight: 700;
+    color: #888;
+}
+.our-team .team .doctor img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 100px
+}
+.our-team .team .doctor img:hover{
+    cursor: pointer;
+   box-shadow: 0px 0px 3px 3px #dedede;
+    transition: all 0.5s ease-in-out;
+}
+.our-team .team .doctor ul{
+    list-style:none;
+    margin-left: 8px
+
+}
+.our-team .team .doctor ul li{
+    float: left;
+    padding-left: 25px
+}
+.our-team .team .doctor ul li i{
+    color: #199BD9
+}
+.our-team .team .doctor ul li i:hover{
+    cursor: pointer; 
+    transition: all 0.5s ease-in-out;
+}
+/*end our-team*/
+/*start note*/
+.note{
+    background-color: #ddd;
+    overflow: hidden;
+}
+.note p{
+    padding-left: 150px;
+    font-weight: bold;
+    color: #555;
+    line-height: 1.6;
+    font-size: 30px;
+    float: left;
+}
+.note button{
+    margin-top: 32px;
+    float: right;
+    margin-right: 150px;
+    font-weight: bold;
+    padding: 8px 40px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    color: #fff;
+    background-color:#199BD9;
+    text-align: center;
+    text-transform: capitalize;
+}
+.note button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 4px 4px #ccc;
+}
+/*end note*/
+/*start contact*/
+.contact-us{
+    overflow: hidden;
+    background-color: #1A1A1A;
+    color: #ccc;
+}
+.contact-us .get{
+    float: left;
+    width: 20%;
+    margin-bottom: 80px;
+    margin-top: 70px;
+    border-right: 1px solid #999;
+    margin-left: 5%;
+    height: 300px
+}
+.contact-us .get h2{
+     font-weight: bold;
+    margin-top: 0px;
+}
+.contact-us .get .contact{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5
+}
+.contact-us .get .contact i{
+    margin-right: 20px;
+    text-align: center;
+    float: left;
+    margin-top: 0px;
+}
+.contact-us .get .contact i:hover,.contact-us .get ul li i:hover{
+    color:#199db9;
+        transition: all 0.5s ease-in-out;
+}
+.contact-us .get .contact strong{
+    float: left;
+    padding-top: 0px;
+    color: #999;
+}
+.contact-us .get ul{
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0px
+}
+.contact-us .get ul li{
+float: left;
+    padding-right: 25px
+}
+.get .link{
+    overflow: hidden;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5
+}
+.get .link i{
+    margin-right: 20px;
+    text-align: center;
+    float: left;
+    margin-top: 4px;
+    color: #199BD9
+}
+.contact-us .send{
+    float: left;
+    margin-bottom: 80px;
+    margin-top: 70px;
+    height: 300px;
+    padding-left: 50px
+}
+ .contact-us .send h2{
+     font-weight: bold;
+    margin-top: 0px;
+}
+ .contact-us .send input{
+     display: block;
+     height: 30px;
+     background-color: inherit;
+     border: 0;
+     border-bottom: 1px solid #999;
+     color: #ccc;
+     width: 200px;
+     margin-top: 10px
+ }
+ .contact-us .send textarea{
+     height: 80px;
+      display: block;
+     background-color: inherit;
+     border: 0;
+     color: #ccc;
+     width: 200px;
+     border-bottom: 1px solid #999;
+     margin-top: 20px;
+     text-transform: capitalize;
+ }
+ .contact-us .send button{
+    margin: 24px 40px;
+    padding: 8px 40px;
+     font-weight: 700;
+     color:#fff;
+     background-color:#199BD9;
+     border: 1px solid #000;
+     border-radius: 50px
+}
+.contact-us .send button,.get .link:hover,.contact-us .get ul li:hover,.contact-us .get .contact:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+/*end contact*/
+/*start scroll to top*/
+.scroll-to-top{
+    width: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid #199BD9;
+    text-align: center;
+    background-color:#199BD9;
+    color:#fff;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    display: none;
+}
+/*end scroll to top*/
+/*start footer*/
+.footer{
+    overflow: hidden;
+    font-weight: 700;
+    background-color: #2f2e2e;
+    color: #555;
+}
+/*end footer*/
